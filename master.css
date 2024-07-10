@@ -1,0 +1,148 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.image {
+    display: flex;
+    margin-top: 15px;
+    border-radius: 10%;
+    align-items: center;
+    overflow: hidden;
+    /*border:px solid transparent;
+    */
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 200px;
+    -webkit-border-radius: 10%;
+}
+
+.master {
+
+    background-color: hsl(330, 100%, 98%);
+    width: 500px;
+    justify-content: center;
+    height: 100%;
+
+    position: relative;
+    top: 50%;
+    left: 35%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 5px solid transparent;
+}
+
+.firstFont {
+    font-family: "Young Serif";
+    margin-left: 29px;
+}
+
+.firstP {
+    font-family: "Outfit";
+    padding: 0px 20px 0 30px;
+    font-size: 14px;
+}
+
+.prep {
+    background-color: hsla(332, 58%, 80%, 0.849);
+    font-family: 'Outfit';
+    border: 10px solid transparent;
+    border-radius: 20px;
+    ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 20px;
+}
+
+.prep ul h3 {
+    position: relative;
+    left: -10px;
+    bottom: 5px;
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+
+}
+
+.prep ul li span {
+    position: relative;
+    font-weight: bold;
+
+}
+
+.prep li {
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.Ing {
+    font-family: "Young serif";
+    color: hsl(14, 45%, 36%);
+    font-size: 25px;
+    position: relative;
+    left: -10px;
+
+}
+
+.ing li span {
+    font-weight: bold;
+}
+
+.ing li {
+    list-style: none;
+    font-family: "Outfit";
+    margin-left: 10px;
+    padding: 10px;
+
+    counter-increment: item;
+
+}
+
+hr {
+    padding: 0px 100px 0px 100px;
+}
+
+.ing p {
+    font-family: "outfit";
+    font-size: 16px;
+}
+
+.nut {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Outfit";
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.nut span {
+    font-weight: bold;
+    font-family: "OUtfit";
+    color: hsl(14, 45%, 36%);
+}
+
+.ing hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ing li::before {
+    content: counter(item);
+    position: relative;
+    right: 20px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+
+}
